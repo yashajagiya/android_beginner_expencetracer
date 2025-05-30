@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mainbg">#111217</color>
+    <color name="secbg">#181A20</color>
+    <color name="nohoverbtn">#5B5BF6</color>
+    <color name="hoverbtn">#B6F09C</color>
+    <color name="secondtext">#B0B3B8</color>
+    <color name="thiredbg">#23242B</color>
+    <color name="expencered">#FF6B6B</color>
+
+</resources>

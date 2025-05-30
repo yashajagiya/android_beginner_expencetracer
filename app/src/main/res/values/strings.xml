@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string name="highest_category">Highest Category</string>
+    <string name="_00">₹00</string>
+    <string name="average_daily">Average Daily</string>
+    <string name="total_expenses">Total Expenses</string>
+    <string name="daily">Daily</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="expense_tracker">Expense Tracker</string>
+    <string name="today_s_expenses">Today\'s Expenses</string>
+    <string name="history">History Of Expenses</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="date">Date</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="n_a">N/A</string>
+    <string name="expenses_by_category">Expenses by Category</string>
+    <string name="expenses_by_payment_method">Expenses by Payment Method</string>
+    <string name="expense_history">Expense History</string>
+    <string name="analysis">Analysis</string>
+</resources>
