@@ -33,7 +33,7 @@ Easily track your daily expenses and understand your spending habits. This is a 
 ### How to Install
 1. **Clone this repository:**
    ```bash
-   git clone <repo-url>
+   git clone <git clone https://github.com/yashajagiya/android_beginner_expencetracer.git>
    ```
 2. **Open in Android Studio:**
    - Go to File > Open, then select this project folder.
