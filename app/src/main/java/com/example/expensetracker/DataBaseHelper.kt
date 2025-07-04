@@ -53,7 +53,7 @@ class DataBaseHelper(context: Context) :
     fun getAllexpense(): List<expensedbvar> {
         val expenselist = mutableListOf<expensedbvar>()
         val dbread = readableDatabase
-        val readquery = "SELECT * FROM $Tablename"
+        val readquery = "SELECT * FROM $Tablename ORDER BY $columns_year DESC, $columns_month DESC, $columns_day DESC, $columns_ID DESC"
         val cursor = dbread.rawQuery(readquery, null)
 
         while (cursor.moveToNext()) {
@@ -76,7 +76,7 @@ class DataBaseHelper(context: Context) :
     fun getExpensesByCategory(category: String): List<expensedbvar> {
         val expenselist = mutableListOf<expensedbvar>()
         val dbread = readableDatabase
-        val readquery = "SELECT * FROM $Tablename WHERE $columns_category = ?"
+        val readquery = "SELECT * FROM $Tablename WHERE $columns_category = ? ORDER BY $columns_year DESC, $columns_month DESC, $columns_day DESC, $columns_ID DESC"
         val cursor = dbread.rawQuery(readquery, arrayOf(category))
 
         while (cursor.moveToNext()) {
